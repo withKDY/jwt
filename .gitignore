@@ -8,6 +8,7 @@ bin
 *.txt
 .loadpath
 .recommenders
+.properties
 out
 .classpath
 .project
