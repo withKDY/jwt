@@ -1,0 +1,14 @@
+.idea
+.gradle
+build
+.settings/
+bin
+*.tmp
+*.bak
+*.txt
+.loadpath
+.recommenders
+out
+.classpath
+.project
+target
