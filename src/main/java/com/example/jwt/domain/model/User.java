@@ -2,7 +2,6 @@ package com.example.jwt.domain.model;
 
 import lombok.Getter;
 import lombok.ToString;
-import org.springframework.security.core.userdetails.UserDetails;
 
 @Getter
 @ToString

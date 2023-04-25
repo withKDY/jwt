@@ -2,6 +2,7 @@ package com.example.jwt.config.jwt;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.impl.DefaultClaims;
+import lombok.Getter;
 import lombok.extern.java.Log;
 
 import java.security.Key;
@@ -10,6 +11,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @Log
+@Getter
 public class JwtAuthToken implements AuthToken<Claims> {
     private final String token;
     private final Key key;
